@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profile Finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="header">
+        <img
+          src="img/github_logo_icon_147285 (1).svg"
+          alt="logo"
+          id="logogithub"
+        />
+        <p id="title">Welcome to the GitHub Profile Finder</p>
+        <input
+          type="text"
+          id="user"
+          
+          placeholder="   Search..."
+        />
+        <button id="data" onclick="showData()">Buscar</button>
+        <button type="button" id="themeButton" onclick="toggleTheme()">
+          Theme Dark
+        </button>
+      </div>
+      <div class="body">
+        <div id="info"  >
+          <img src="https://tse3.mm.bing.net/th?id=OIP.xPc7LYnHK50N_ofySci2bAHaHa&pid=Api&P=0&w=300&h=300" id="avatar">
+          <h1 id="name">nombre:</h1>
+          <h3 id="bio">bio:</h3>
+          <p id="company">company:</p>
+          <p id="location">location:</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

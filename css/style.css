@@ -8,14 +8,14 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 5 px;       
-    background-color: #838586;
+    background-color: #060915;
 }
 
 .header{   
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: space-between;
     height: 62px;
     border-bottom: 1px solid white;
 }
@@ -60,7 +60,7 @@ input{
     background-color: #838586;
     margin-top: 13px;
     margin-bottom: 13px;
-    margin-left: 26px;
+    margin-right: 15px;
     padding: 2px;
     color: white;
 }
@@ -79,6 +79,7 @@ input{
 
 .body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 600px;
@@ -86,16 +87,44 @@ input{
 
 #info{
     
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    color: white;
     width: 600px;
-    height: 500px;
-    background-color: #838586;
+    height: 400px;
+    background-color: #131723;
     border: 1px solid white;
     border-radius: 5px;
     align-items: center;
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    width: 600px;
+    height: 70px;
+    margin: 15px;
+    background-color: #131723;
+    border: 1px solid white;
+    border-radius: 5px;
+    align-items: center;
+    color: white;
+}
+footer{
+    text-align: center;  
+    width: 600px;
+    height: 20px;
+    margin: 8px;
+    background-color: #060915;
+    align-items: center;
+    align-items: center;
+    color: white;
+}
+#footer{
+    color: white;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #avatar{
